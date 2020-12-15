@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Item detail test" time="31.65" tests="1" failures="0" errors="0">
+   <testsuite name="Item detail test" tests="1" failures="0" errors="0" time="31.65" timestamp="2020-12-15 16:18:41" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/Item detail test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\find-procurement-test\\Reports\\20201215_161829\\Item detail test\\20201215_161829"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\find-procurement-test\\Reports\\20201215_161829\\Item detail test\\20201215_161829\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="80a42830a46f5705e9d0b09799cda4d3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Custom Procurement Details/TEST CASE/TC_DETAILS_UI_001" time="31.13" classname="Test Cases/Custom Procurement Details/TEST CASE/TC_DETAILS_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-12-15 16:18:41 - [TEST_CASE][PASSED] - Test Cases/Custom Procurement Details/TEST CASE/TC_DETAILS_UI_001: Test Cases/Custom Procurement Details/TEST CASE/TC_DETAILS_UI_001
+
+2020-12-15 16:18:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Procurement Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Procurement Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-15 16:18:42 - [TEST_CASE][PASSED] - Test Cases/Custom Procurement Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Procurement Details/UTILITIES/OPEN_BROWSER
+
+2020-12-15 16:18:42 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/buyer-signin"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/buyer-signin'
+
+2020-12-15 16:18:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-15 16:18:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-15 16:18:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/buyer-signin'
+
+2020-12-15 16:18:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Procurement Details/UTILITIES/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Procurement Details/UTILITIES/LOGIN' successfully
+
+2020-12-15 16:18:53 - [TEST_CASE][PASSED] - Test Cases/Custom Procurement Details/UTILITIES/LOGIN: Test Cases/Custom Procurement Details/UTILITIES/LOGIN
+
+2020-12-15 16:18:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/Page_diagnostics/a_Sign_in_as_Buyer"), 0): Object 'Object Repository/Login/Page_diagnostics/a_Sign_in_as_Buyer' is present
+
+2020-12-15 16:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-15 16:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_diagnostics/a_Sign_in_as_Buyer' is present
+
+2020-12-15 16:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_diagnostics/a_Sign_in_as_Buyer")): Object: 'Object Repository/Login/Page_diagnostics/a_Sign_in_as_Buyer' is clicked on
+
+2020-12-15 16:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_diagnostics/a_Sign_in_as_Buyer' is clicked on
+
+2020-12-15 16:18:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/Page_diagnostics/input_Username"), 0): Object 'Object Repository/Login/Page_diagnostics/input_Username' is present
+
+2020-12-15 16:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-15 16:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_diagnostics/input_Username' is present
+
+2020-12-15 16:18:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_diagnostics/input_Username"), "admin"): Text 'admin' is set on object 'Object Repository/Login/Page_diagnostics/input_Username'
+
+2020-12-15 16:18:55 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Page_diagnostics/input_Username'
+
+2020-12-15 16:18:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/Page_diagnostics/input_Password"), 0): Object 'Object Repository/Login/Page_diagnostics/input_Password' is present
+
+2020-12-15 16:18:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-15 16:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_diagnostics/input_Password' is present
+
+2020-12-15 16:18:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_diagnostics/input_Password"), "Diagnostics123!"): Text 'Diagnostics123!' is set on object 'Object Repository/Login/Page_diagnostics/input_Password'
+
+2020-12-15 16:18:57 - [MESSAGE][PASSED] - Text 'Diagnostics123!' is set on object 'Object Repository/Login/Page_diagnostics/input_Password'
+
+2020-12-15 16:18:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/Page_diagnostics/input_Submit"), 0): Object 'Object Repository/Login/Page_diagnostics/input_Submit' is present
+
+2020-12-15 16:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-15 16:18:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_diagnostics/input_Submit' is present
+
+2020-12-15 16:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_diagnostics/input_Submit")): Object: 'Object Repository/Login/Page_diagnostics/input_Submit' is clicked on
+
+2020-12-15 16:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_diagnostics/input_Submit' is clicked on
+
+2020-12-15 16:19:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Procurement Details/UTILITIES/LOGIN' successfully
+
+2020-12-15 16:19:03 - [TEST_STEP][PASSED] - navigateToUrl("https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5"): Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-15 16:19:06 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-15 16:19:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Procurement Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-15 16:19:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Procurement Details/UTILITIES/PROCURE_PAGE"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Procurement Details/UTILITIES/PROCURE_PAGE' successfully
+
+2020-12-15 16:19:06 - [TEST_CASE][PASSED] - Test Cases/Custom Procurement Details/UTILITIES/PROCURE_PAGE: Test Cases/Custom Procurement Details/UTILITIES/PROCURE_PAGE
+
+2020-12-15 16:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Item Details/Page_diagnostics/a_PROCURE_DIRECTLY_FROM_SELLER")): Object: 'Object Repository/Item Details/Page_diagnostics/a_PROCURE_DIRECTLY_FROM_SELLER' is clicked on
+
+2020-12-15 16:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details/Page_diagnostics/a_PROCURE_DIRECTLY_FROM_SELLER' is clicked on
+
+2020-12-15 16:19:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Procurement Details/UTILITIES/PROCURE_PAGE' successfully
+
+2020-12-15 16:19:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Procurement Active1/Page_diagnostics/span_SHIPPING"), 0): Object 'Object Repository/Procurement Active1/Page_diagnostics/span_SHIPPING' is present
+
+2020-12-15 16:19:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-15 16:19:11 - [MESSAGE][PASSED] - Object 'Object Repository/Procurement Active1/Page_diagnostics/span_SHIPPING' is present
+
+2020-12-15 16:19:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Procurement Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Procurement Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-15 16:19:11 - [TEST_CASE][PASSED] - Test Cases/Custom Procurement Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Procurement Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-15 16:19:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-15 16:19:12 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-15 16:19:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Procurement Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-15 16:18:41 - [TEST_SUITE][PASSED] - Item detail test: Test Cases/Custom Procurement Details/TEST CASE/TC_DETAILS_UI_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Item detail test,Chrome 87.0.4280.88,,,2020-12-15 16:18:41,2020-12-15 16:19:12,31.338s,PASSED
+,,,,,,,
+Test Cases/Custom Procurement Details/TEST CASE/TC_DETAILS_UI_001,Chrome 87.0.4280.88,,,2020-12-15 16:18:41,2020-12-15 16:19:12,31.130s,PASSED
+"callTestCase(findTestCase(""Custom Procurement Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.88,,,2020-12-15 16:18:41,2020-12-15 16:19:06,24.704s,PASSED
+"callTestCase(findTestCase(""Custom Procurement Details/UTILITIES/PROCURE_PAGE""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.88,,,2020-12-15 16:19:06,2020-12-15 16:19:10,3.550s,PASSED
+"verifyElementPresent(findTestObject(""Procurement Active1/Page_diagnostics/span_SHIPPING""), 0)",Chrome 87.0.4280.88,,,2020-12-15 16:19:10,2020-12-15 16:19:11,1.808s,PASSED
+"callTestCase(findTestCase(""Custom Procurement Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.88,,,2020-12-15 16:19:11,2020-12-15 16:19:12,0.845s,PASSED
