@@ -19,6 +19,8 @@ WebUI.callTestCase(findTestCase('Custom Procurement Details/UTILITIES/OPEN_BROWS
 
 WebUI.callTestCase(findTestCase('Custom Procurement Details/UTILITIES/PROCURE_PAGE'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Custom Procurement Details/UTILITIES/CART_PAGE'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Custom Procurement Details/UTILITIES/FORM_INPUT'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Custom Procurement Details/UTILITIES/CLOSE_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)

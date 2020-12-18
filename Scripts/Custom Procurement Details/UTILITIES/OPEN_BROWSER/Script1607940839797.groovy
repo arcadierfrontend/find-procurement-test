@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://gdasandbox.test-arcadier.com/buyer-signin')
 
+WebUI.maximizeWindow()
+
 WebUI.callTestCase(findTestCase('Custom Procurement Details/UTILITIES/LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5')

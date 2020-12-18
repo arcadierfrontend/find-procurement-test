@@ -6,15 +6,15 @@
    <elementGuidId>f7374065-8f12-4cea-9623-e4eabd9c4098</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h4.price_tag</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='QTY: 1'])[1]/following::h4[1]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.price_tag</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
